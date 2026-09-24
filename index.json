@@ -1,0 +1,889 @@
+{
+  "version": 1,
+  "store": "FarvixoTechnologies/mira-skills",
+  "skills": [
+    {
+      "name": "daily-briefing",
+      "description": "Good morning briefing: time, weather, battery, reminders, notifications and top news in one short answer",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "good morning",
+        "din ka update",
+        "aajker update",
+        "morning briefing",
+        "subah ka update"
+      ],
+      "file": "skills/daily-briefing.md",
+      "sha256": "cae6520c404dd7591c6e7ba1acdd60c3b12ef794a0076fc354ce493e11c49916",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "night-wind-down",
+      "description": "Bedtime routine: morning alarm, Do Not Disturb, low brightness, tomorrow's reminders",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "good night",
+        "shuye porbo",
+        "sone ja raha",
+        "night mode",
+        "bedtime"
+      ],
+      "file": "skills/night-wind-down.md",
+      "sha256": "03603d7d3d32b8725a8219f216d6f4f7859b795ea551d91a4fd64c30bb5dc06b",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "wake-up-alarm",
+      "description": "Set, check or change an alarm in the clock app",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "alarm dao",
+        "alarm set",
+        "wake me up",
+        "alarm lagao",
+        "uthiye dio"
+      ],
+      "file": "skills/wake-up-alarm.md",
+      "sha256": "3255c453b1b74d7f325659c625e981746b546d5388f62e89e8d487366e6b0a34",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "quick-timer",
+      "description": "Countdown timers for cooking, naps, workouts and anything else",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "timer",
+        "timer dao",
+        "minute por bolo",
+        "countdown",
+        "timer lagao"
+      ],
+      "file": "skills/quick-timer.md",
+      "sha256": "c188914824ae769c635da0c3b05c8102aa65035d98424bfa06a330e377c866e2",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "reminder-pro",
+      "description": "Reminders that survive reboots: one-off, repeating, snooze and cancel",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "remind me",
+        "mone koriye dio",
+        "yaad dilana",
+        "reminder dao",
+        "reminder set"
+      ],
+      "file": "skills/reminder-pro.md",
+      "sha256": "61b765958d3b580ee36f31f68bd49409d8d99dae8dd45d445d1d40534bd73aa7",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "music-mood",
+      "description": "Play songs, artists or a mood, and control playback without talking over the music",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "gaan chalao",
+        "gaana bajao",
+        "play music",
+        "song lagao",
+        "kuch sunao"
+      ],
+      "file": "skills/music-mood.md",
+      "sha256": "7ceeca5ade13b8885e0c16546dd3af08d768d6686b3131d1a5de6c1c8cb3f612",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "youtube-watch",
+      "description": "Find and play a YouTube video, or open results to choose from",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "youtube",
+        "youtube e",
+        "video chalao",
+        "video dekhao",
+        "youtube pe"
+      ],
+      "file": "skills/youtube-watch.md",
+      "sha256": "90e40a0a2987c04505a701f029f7fce54e4c3f6cf3e7a5934336185faf6d7679",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "whatsapp-message",
+      "description": "Send a WhatsApp message to a contact, read back and confirmed first",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "whatsapp e bolo",
+        "whatsapp message",
+        "whatsapp pe bhejo",
+        "whatsapp koro"
+      ],
+      "file": "skills/whatsapp-message.md",
+      "sha256": "a68a57af9f3fb0f12ad37b800ba3902ebd73e4a05b5a2428fbdea8e0e3114abd",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "whatsapp-catch-up",
+      "description": "Summarise unread WhatsApp messages and help reply",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "whatsapp e ki esheche",
+        "unread whatsapp",
+        "koi message aaya",
+        "whatsapp check"
+      ],
+      "file": "skills/whatsapp-catch-up.md",
+      "sha256": "54654adcad6aff1c9dc32113df8663cc36ac1ed22f9518581e9d68ee2cc04572",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "call-someone",
+      "description": "Place a phone call by name or number, after confirming who",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "call koro",
+        "phone lagao",
+        "call karo",
+        "ke phone koro"
+      ],
+      "file": "skills/call-someone.md",
+      "sha256": "407e1acbbdb1425601634cf0a71beb45f2f1b41d73240dbd8f08b42aca1588f2",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "missed-calls",
+      "description": "Who called, and call them back",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "missed call",
+        "ke call korechilo",
+        "kisne call kiya",
+        "call history"
+      ],
+      "file": "skills/missed-calls.md",
+      "sha256": "fae962cc4ea9e2895eae1d618b38183f34559ff844700cd87008128c100754c3",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "sms-helper",
+      "description": "Read recent texts, find one, and reply by SMS",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "sms",
+        "message porho",
+        "text message",
+        "sms pathao"
+      ],
+      "file": "skills/sms-helper.md",
+      "sha256": "e233a36c4c4526d65f1c57de1345d74d183f2ecdcde14685a4b689f56f30948f",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "call-manager",
+      "description": "Handle a call in progress: answer, reject, speaker, mute",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "call dhoro",
+        "call kete dao",
+        "speaker on",
+        "call mute"
+      ],
+      "file": "skills/call-manager.md",
+      "sha256": "9eadddb3f3c26bac3c4c4243f8c4c0ada4404bf130cff529dcb8ee70916af711",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "photo-to-whatsapp",
+      "description": "Take or pick a photo and share it on WhatsApp",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "photo pathao",
+        "chobi pathao",
+        "photo bhejo",
+        "picture share",
+        "screenshot pathao"
+      ],
+      "file": "skills/photo-to-whatsapp.md",
+      "sha256": "406084ebc355f70b2b916b406c131f2f4a5df69f6792a319d0a70869d3066ca6",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "screen-explainer",
+      "description": "Explain what is on the screen, read it aloud, or summarise a long page",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "screen e ki ache",
+        "what's on my screen",
+        "eta ki",
+        "pore shunao"
+      ],
+      "file": "skills/screen-explainer.md",
+      "sha256": "acb6c8048a192fe8fa8decf52fa6e54db145c59091e70f61d531e69682f5c7d2",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "navigation",
+      "description": "Directions to a place in Google Maps by car, bike, walking or transit",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "rasta dekhao",
+        "directions",
+        "navigate",
+        "kaise jaun",
+        "kivabe jabo"
+      ],
+      "file": "skills/navigation.md",
+      "sha256": "1010b98f3955d44d47fc7a9c8f824afb1bb2a6262eaee716c7c3efb6f3d70e99",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "nearby-places",
+      "description": "Find nearby restaurants, ATMs, hospitals, petrol pumps and more",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "kache",
+        "nearby",
+        "paas mein",
+        "najdik",
+        "near me"
+      ],
+      "file": "skills/nearby-places.md",
+      "sha256": "0458d09fac354f61dec55e7ec19d2cc371db93ce5b1eccfba75a26533cf9fc3c",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "driving-companion",
+      "description": "Hands-free while driving: navigation, music, calls and short replies only",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "driving",
+        "gari chalachchi",
+        "drive kar raha",
+        "car mode"
+      ],
+      "file": "skills/driving-companion.md",
+      "sha256": "29944ce54e369ae8b4d4a11f4dca0f39f9122d5274a828f055d4d39ecdc4b699",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "cab-and-travel",
+      "description": "Open ride apps, check train or flight status, keep a packing list",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "cab book",
+        "uber",
+        "ola",
+        "train status",
+        "flight status"
+      ],
+      "file": "skills/cab-and-travel.md",
+      "sha256": "2148996193f0edd7017aa5b3d51b71f45fa2d988903a5f9eff2cf38959fe19f6",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "weather-check",
+      "description": "Weather now, later today, tomorrow, and rain alerts",
+      "platforms": [
+        "phone",
+        "desktop"
+      ],
+      "triggers": [
+        "weather",
+        "abohawa",
+        "mausam",
+        "brishti hobe",
+        "barish"
+      ],
+      "file": "skills/weather-check.md",
+      "sha256": "7f22240d248aa017d8a958a4618491e636b53778024b16c5d7360d8eab49e5ad",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "news-headlines",
+      "description": "Latest news by topic or place, briefly",
+      "platforms": [
+        "phone",
+        "desktop"
+      ],
+      "triggers": [
+        "news",
+        "khobor",
+        "khabar",
+        "headlines",
+        "aajker khobor"
+      ],
+      "file": "skills/news-headlines.md",
+      "sha256": "b4a41e3600af68a9e1a0087f478adfebec0f995e0f4882bf7331322b5441bcf8",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "sports-scores",
+      "description": "Live cricket and football scores, fixtures and results",
+      "platforms": [
+        "phone",
+        "desktop"
+      ],
+      "triggers": [
+        "score",
+        "match",
+        "cricket",
+        "khela",
+        "football score"
+      ],
+      "file": "skills/sports-scores.md",
+      "sha256": "1bbb8433b7f0d4e7faa77754f46919d2c41361af1d15c2e63e17c3d3e6ac946d",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "market-watch",
+      "description": "Stock, index, gold and crypto prices, for information only",
+      "platforms": [
+        "phone",
+        "desktop"
+      ],
+      "triggers": [
+        "share price",
+        "sensex",
+        "nifty",
+        "gold rate",
+        "bitcoin price"
+      ],
+      "file": "skills/market-watch.md",
+      "sha256": "faaaad569a43cfdc82944a88e3116930cd776e61ddac11011080334d8dbe770b",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "currency-and-units",
+      "description": "Convert currency, units and time zones, and do quick maths",
+      "platforms": [
+        "phone",
+        "desktop"
+      ],
+      "triggers": [
+        "convert",
+        "koto taka",
+        "kitne rupaye",
+        "dollar to rupee",
+        "hisab"
+      ],
+      "file": "skills/currency-and-units.md",
+      "sha256": "c66f0ad77237b52e37c8da5ac4fc3a48958f978924baa93bb9ce1238efbc5183",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "translate-speak",
+      "description": "Translate between Bengali, Hindi, English and more, and explain word meanings",
+      "platforms": [
+        "phone",
+        "desktop"
+      ],
+      "triggers": [
+        "translate",
+        "onubad",
+        "english e bolo",
+        "mane ki",
+        "matlab kya"
+      ],
+      "file": "skills/translate-speak.md",
+      "sha256": "b8d5f7deeb87c524f362f3b641b65f1f7696f462715e889e9cbcdb5aded75272",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "homework-helper",
+      "description": "Explain a school or college problem step by step instead of just giving answers",
+      "platforms": [
+        "phone",
+        "desktop"
+      ],
+      "triggers": [
+        "homework",
+        "porashona",
+        "padhai",
+        "explain koro",
+        "solve this"
+      ],
+      "file": "skills/homework-helper.md",
+      "sha256": "57194ac6663e1fe973a8c31bc450d23ced6aa327182b4543c9383d6983db7f84",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "study-focus",
+      "description": "A focus session: Do Not Disturb, a timer, 25/5 cycles and a recap at the end",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "focus mode",
+        "porte bosbo",
+        "study mode",
+        "padhai shuru",
+        "pomodoro"
+      ],
+      "file": "skills/study-focus.md",
+      "sha256": "d98a6756bec66ae6aad0f802c5b1937cae8034887d1206236f63462baf3fcba6",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "meeting-mode",
+      "description": "Silence the phone for a meeting or class and bring sound back after",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "meeting",
+        "meeting e achi",
+        "silent koro",
+        "class e achi"
+      ],
+      "file": "skills/meeting-mode.md",
+      "sha256": "67dc6328d632d10313005038394bee71bb42b7064c970b395931c3ccd03a913b",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "water-reminder",
+      "description": "Regular reminders to drink water through the day",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "pani khete",
+        "water reminder",
+        "paani yaad",
+        "pani khawar"
+      ],
+      "file": "skills/water-reminder.md",
+      "sha256": "42112336ae3f22e7c1069a3584253e5e0993715c5f9dc0d6cf56e54fe80a3cb6",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "medicine-reminder",
+      "description": "Daily medicine reminders at fixed times",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "medicine",
+        "oshudh",
+        "dawai",
+        "tablet khete"
+      ],
+      "file": "skills/medicine-reminder.md",
+      "sha256": "8fe2d4dbdfaaaf369a177665d7695fd6e1887544c469fdf8ae396dd144539969",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "workout-coach",
+      "description": "Timed exercise sets with music",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "workout",
+        "exercise",
+        "byayam",
+        "gym timer"
+      ],
+      "file": "skills/workout-coach.md",
+      "sha256": "4a34875bfc62ef65ccc1ca58fdc092355611193fd1881b0670aad119ae0fd6fc",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "phone-care",
+      "description": "Battery, heat, slowness and storage: check and fix the usual causes",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "phone slow",
+        "phone garam",
+        "battery taratari",
+        "storage full",
+        "phone care"
+      ],
+      "file": "skills/phone-care.md",
+      "sha256": "239224f108d6d64a672a7f022dabe3567d0776d7f91a1afd08d210f0e3d25ca1",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "connectivity-help",
+      "description": "Wi-Fi, mobile data, Bluetooth, hotspot and airplane mode",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "wifi",
+        "net nei",
+        "internet nahi",
+        "bluetooth",
+        "hotspot"
+      ],
+      "file": "skills/connectivity-help.md",
+      "sha256": "d891cea03fffbf6652c211f18189c72027ab8ed42da597d8e5ffeb7c46c65c45",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "display-comfort",
+      "description": "Brightness, auto-brightness, rotation and screen timeout",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "brightness",
+        "alo kom",
+        "screen bright",
+        "rotation",
+        "screen timeout"
+      ],
+      "file": "skills/display-comfort.md",
+      "sha256": "827d0b2505ca692cc4a2b15d1e39d4be50d2e97696632e4a46bb88f3497cccf9",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "sound-control",
+      "description": "Volume, ringer mode, Do Not Disturb, alarm and ring volume",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "volume",
+        "awaj",
+        "awaaz",
+        "vibrate",
+        "dnd"
+      ],
+      "file": "skills/sound-control.md",
+      "sha256": "36a91ff0d9e9cdb7693e9908fb479d704f0459cbab190efb034daa7123d619b3",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "quick-toggles",
+      "description": "Torch, screenshot, lock screen, home and back in one word",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "torch",
+        "flashlight",
+        "lock koro",
+        "home e jao"
+      ],
+      "file": "skills/quick-toggles.md",
+      "sha256": "84253412bd55a7d30bf8c373b98843e7106aab7a3e6bfaa85734564a4716fb9c",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "quick-notes",
+      "description": "Remember anything the user says and find it again later",
+      "platforms": [
+        "phone",
+        "desktop"
+      ],
+      "triggers": [
+        "mone rekho",
+        "yaad rakhna",
+        "note koro",
+        "remember that"
+      ],
+      "file": "skills/quick-notes.md",
+      "sha256": "399b7c9091646a464d8b6d05cddc1a68efdee1d613ffab7e214713ef0af77ee1",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "shopping-list",
+      "description": "Keep a shopping list: add, read and clear items",
+      "platforms": [
+        "phone",
+        "desktop"
+      ],
+      "triggers": [
+        "shopping list",
+        "bazar er list",
+        "kya lana hai",
+        "list e add"
+      ],
+      "file": "skills/shopping-list.md",
+      "sha256": "15f97ba32c79d09a45be39336350c9b94190fca87273c362db1360cddfde12ee",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "birthdays-and-dates",
+      "description": "Remember birthdays and anniversaries and get reminded in time",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "birthday",
+        "jonmodin",
+        "anniversary",
+        "janamdin"
+      ],
+      "file": "skills/birthdays-and-dates.md",
+      "sha256": "19846b28ef51f63b0490baaa1ec508bb0fd61272d60915d2999d105900fa8cd7",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "app-navigator",
+      "description": "Do a task inside any app step by step using the screen",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "app e giye",
+        "app mein jaake",
+        "inside the app",
+        "ei app e"
+      ],
+      "file": "skills/app-navigator.md",
+      "sha256": "b0485e6e408424347fb2c6267b29e22f57f526b7053745a8275c77580e18c013",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "app-search",
+      "description": "Search inside an app: Play Store, Amazon, Flipkart, Instagram and others",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "search koro",
+        "khojo",
+        "dhundo",
+        "search in"
+      ],
+      "file": "skills/app-search.md",
+      "sha256": "572135ebe25530760534db0f8e1c8281d33fd926846c5ced4dda9368b1cc5507",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "form-filler",
+      "description": "Fill a form on screen with details the user gives, never secrets",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "form fill",
+        "form bhoro",
+        "details likho"
+      ],
+      "file": "skills/form-filler.md",
+      "sha256": "3da928ab4320d6cc90349d57d52013867d09ee0fe36c7f6c78d754b975cd6c42",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "clipboard-helper",
+      "description": "Read, copy, clear and share the clipboard",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "copy koro",
+        "clipboard",
+        "paste"
+      ],
+      "file": "skills/clipboard-helper.md",
+      "sha256": "ab14058ed86d7bf25bf7695da168d651247b3e7486231233050ea6740823a056",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "macro-builder",
+      "description": "Record a repeated task once and replay it by name",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "macro",
+        "record koro",
+        "shortcut banao",
+        "repeat task"
+      ],
+      "file": "skills/macro-builder.md",
+      "sha256": "9f7c9a456ee873cda87b3901ab29d03f3c2f9e271ae2593dd55065731fe35408",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "emergency-help",
+      "description": "Emergency: call 112 or a family member, clearly and fast",
+      "platforms": [
+        "phone"
+      ],
+      "triggers": [
+        "emergency",
+        "help me",
+        "bachao",
+        "accident",
+        "112"
+      ],
+      "file": "skills/emergency-help.md",
+      "sha256": "e9303b4b4dbd5250d9471703583bd0d006a15902a99a6e5f6a985dfe585ff4a6",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "scam-check",
+      "description": "Check whether a message, call or link looks like a scam",
+      "platforms": [
+        "phone",
+        "desktop"
+      ],
+      "triggers": [
+        "scam",
+        "fraud",
+        "fake message",
+        "eta ki thik",
+        "link safe"
+      ],
+      "file": "skills/scam-check.md",
+      "sha256": "b4a06d64403cde73b3f277eea79b8e85a4105126bb06e13b8812ba9056333d19",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "pc-launch",
+      "description": "Open apps on the PC",
+      "platforms": [
+        "desktop"
+      ],
+      "triggers": [
+        "pc te kholo",
+        "computer pe kholo",
+        "open on pc",
+        "laptop e kholo"
+      ],
+      "file": "skills/pc-launch.md",
+      "sha256": "3c3e867ab521e4f5705fccb3455d1bf29d5291b22e9e7a504491ae01e112a8de",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "pc-research",
+      "description": "Research a topic on the PC and save a short summary file",
+      "platforms": [
+        "desktop"
+      ],
+      "triggers": [
+        "research koro",
+        "khoj nao",
+        "research kar",
+        "summary likho"
+      ],
+      "file": "skills/pc-research.md",
+      "sha256": "ee4ae7924827fd49de6ec2564409106b4f39e8ed68ff35415617a10cc67b3633",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "pc-files",
+      "description": "Find, list and read files on the PC",
+      "platforms": [
+        "desktop"
+      ],
+      "triggers": [
+        "file khojo",
+        "file dhundo",
+        "find file",
+        "folder e ki ache"
+      ],
+      "file": "skills/pc-files.md",
+      "sha256": "f0128da8a8ace4336eb041e4ccc4af658db2e796c18c21d5fdd8b3d6cbefbe52",
+      "version": 1,
+      "updated": "2026-09-24"
+    },
+    {
+      "name": "pc-health",
+      "description": "Check the PC: CPU, memory, disk and uptime",
+      "platforms": [
+        "desktop"
+      ],
+      "triggers": [
+        "pc slow",
+        "computer slow",
+        "system check",
+        "pc health"
+      ],
+      "file": "skills/pc-health.md",
+      "sha256": "087fbf4ee22f725aa0582cecae2b543040f0d728a7c18ebbe75893b7c4908ce3",
+      "version": 1,
+      "updated": "2026-09-24"
+    }
+  ]
+}
